@@ -1,0 +1,7 @@
+# Default values for flagger.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+gateway:
+  name: flagger
+  fqdn: flagger.elnatan.com.br

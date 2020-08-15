@@ -1,0 +1,19 @@
+apiVersion: v1
+appVersion: 6.5.1
+description: Grafana dashboards for monitoring Flagger canary deployments
+home: https://flagger.app
+icon: https://raw.githubusercontent.com/weaveworks/flagger/master/docs/logo/weaveworks.png
+keywords:
+- flagger
+- grafana
+- canary
+- istio
+- appmesh
+maintainers:
+- email: stefanprodan@users.noreply.github.com
+  name: stefanprodan
+  url: https://github.com/stefanprodan
+name: grafana
+sources:
+- https://github.com/weaveworks/flagger
+version: 1.4.0
