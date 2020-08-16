@@ -1,7 +1,4 @@
-.PHONY: clean crds sleep install sleep gateway sleep grafana
-
-clean: 
-	rm *.tgz || exit 0
+.PHONY: crds sleep install sleep gateway sleep grafana
 
 crds:
 	kubectl apply -f installation/crds/crd.yaml
