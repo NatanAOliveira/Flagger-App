@@ -1,4 +1,5 @@
-.PHONY: crds sleep install sleep gateway sleep grafana
+all: crds sleep install sleep gateway sleep grafana
+.PHONY: all
 
 crds:
 	kubectl apply -f installation/crds/crd.yaml
